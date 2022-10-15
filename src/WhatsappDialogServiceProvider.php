@@ -2,9 +2,9 @@
 
 namespace Mbscholars\WhatsappDialog;
 
+use Mbscholars\WhatsappDialog\Commands\WhatsappDialogCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Mbscholars\WhatsappDialog\Commands\WhatsappDialogCommand;
 
 class WhatsappDialogServiceProvider extends PackageServiceProvider
 {

@@ -3,8 +3,8 @@
 namespace Mbscholars\WhatsappDialog\Tests;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
-use Orchestra\Testbench\TestCase as Orchestra;
 use Mbscholars\WhatsappDialog\WhatsappDialogServiceProvider;
+use Orchestra\Testbench\TestCase as Orchestra;
 
 class TestCase extends Orchestra
 {
