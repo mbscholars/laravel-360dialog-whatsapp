@@ -1,17 +1,17 @@
 {
-    "name": ":vendor_slug/:package_slug",
-    "description": ":package_description",
+    "name": "mbscholars/laravel-whatsapp-with-360dialog",
+    "description": "This is my package laravel-whatsapp-with-360dialog",
     "keywords": [
-        ":vendor_name",
+        "mbscholars",
         "laravel",
-        ":package_slug"
+        "laravel-whatsapp-with-360dialog"
     ],
-    "homepage": "https://github.com/:vendor_slug/:package_slug",
+    "homepage": "https://github.com/mbscholars/laravel-whatsapp-with-360dialog",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": "author@domain.com",
+            "name": "Sunday Mba",
+            "email": "sundaymba91@gmail.com",
             "role": "Developer"
         }
     ],
@@ -35,13 +35,13 @@
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\Skeleton\\": "src",
-            "VendorName\\Skeleton\\Database\\Factories\\": "database/factories"
+            "Mbscholars\\WhatsappDialog\\": "src",
+            "Mbscholars\\WhatsappDialog\\Database\\Factories\\": "database/factories"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\Skeleton\\Tests\\": "tests"
+            "Mbscholars\\WhatsappDialog\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -61,10 +61,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "VendorName\\Skeleton\\SkeletonServiceProvider"
+                "Mbscholars\\WhatsappDialog\\WhatsappDialogServiceProvider"
             ],
             "aliases": {
-                "Skeleton": "VendorName\\Skeleton\\Facades\\Skeleton"
+                "WhatsappDialog": "Mbscholars\\WhatsappDialog\\Facades\\WhatsappDialog"
             }
         }
     },
